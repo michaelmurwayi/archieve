@@ -1,0 +1,27 @@
+2026-04-08 09:13:56,384 - INFO - Using archive directory: /archive
+2026-04-08 09:13:56,384 - WARNING - Database unavailable; continuing without DB logging: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-08 09:13:56,384 - INFO - Archiving files for group 'developers' with members: alice, bob
+2026-04-08 09:13:56,385 - INFO - Resolved group 'developers' members: alice, bob
+2026-04-08 09:13:56,385 - INFO - [alice] Archiving from /home/alice to /archive/alice
+2026-04-08 09:13:56,385 - INFO - [alice] Archived: /home/alice/docs/db-notes.txt -> /archive/alice/docs/db-notes.txt
+2026-04-08 09:13:56,385 - INFO - [alice] Archived: /home/alice/docs/api-design.md -> /archive/alice/docs/api-design.md
+2026-04-08 09:13:56,385 - INFO - [alice] Archived: /home/alice/docs/q1-summary.txt -> /archive/alice/docs/q1-summary.txt
+2026-04-08 09:13:56,386 - INFO - [alice] Archived: /home/alice/downloads/settings.json -> /archive/alice/downloads/settings.json
+2026-04-08 09:13:56,386 - INFO - [alice] Archived: /home/alice/downloads/ubuntu.iso -> /archive/alice/downloads/ubuntu.iso
+2026-04-08 09:13:56,386 - INFO - [alice] Archived: /home/alice/projects/api/limiter.py -> /archive/alice/projects/api/limiter.py
+2026-04-08 09:13:56,386 - INFO - [alice] Archived: /home/alice/projects/api/auth.py -> /archive/alice/projects/api/auth.py
+2026-04-08 09:13:56,386 - INFO - [alice] Archived: /home/alice/projects/web/index.html -> /archive/alice/projects/web/index.html
+2026-04-08 09:13:56,386 - INFO - [bob] Archiving from /home/bob to /archive/bob
+2026-04-08 09:13:56,387 - INFO - [bob] Archived: /home/bob/workspace/backend/users.py -> /archive/bob/workspace/backend/users.py
+2026-04-08 09:13:56,387 - INFO - [bob] Archived: /home/bob/workspace/backend/archive.py -> /archive/bob/workspace/backend/archive.py
+2026-04-08 09:13:56,387 - INFO - [bob] Archived: /home/bob/workspace/backend/models.py -> /archive/bob/workspace/backend/models.py
+2026-04-08 09:13:56,387 - INFO - [bob] Archived: /home/bob/workspace/scripts/deploy.sh -> /archive/bob/workspace/scripts/deploy.sh
+2026-04-08 09:13:56,387 - INFO - [bob] Archived: /home/bob/workspace/scripts/health.sh -> /archive/bob/workspace/scripts/health.sh
+2026-04-08 09:13:56,387 - INFO - [bob] Archived: /home/bob/tmp/build-old.tar.gz -> /archive/bob/tmp/build-old.tar.gz
+2026-04-08 09:13:56,387 - INFO - [bob] Archived: /home/bob/notes/meeting-20250610.txt -> /archive/bob/notes/meeting-20250610.txt
+2026-04-08 09:13:56,388 - INFO - [bob] Archived: /home/bob/notes/sprint-12.txt -> /archive/bob/notes/sprint-12.txt
+2026-04-08 09:13:56,388 - INFO - Completed group 'developers' | moved=16 | skipped=0 | errors=0

@@ -1,0 +1,8 @@
+2026-04-08 09:30:25,406 - INFO - Using archive directory: /archive
+2026-04-08 09:30:25,406 - WARNING - Database unavailable; continuing without DB logging: could not translate host name " archivedb" to address: Name or service not known
+
+2026-04-08 09:30:25,406 - INFO - Archiving files for group 'developers' with members: alice, bob
+2026-04-08 09:30:25,406 - INFO - Resolved group 'developers' members: alice, bob
+2026-04-08 09:30:25,407 - INFO - [alice] Archiving from /home/alice to /archive/alice
+2026-04-08 09:30:25,407 - INFO - [bob] Archiving from /home/bob to /archive/bob
+2026-04-08 09:30:25,408 - INFO - Completed group 'developers' | moved=0 | skipped=0 | errors=0

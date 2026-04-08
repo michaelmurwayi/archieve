@@ -1,0 +1,11 @@
+2026-04-08 09:24:05,110 - INFO - Using archive directory: /archive
+2026-04-08 09:24:05,111 - WARNING - Database unavailable; continuing without DB logging: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-04-08 09:24:05,111 - INFO - Archiving files for group 'developers' with members: alice, bob
+2026-04-08 09:24:05,111 - INFO - Resolved group 'developers' members: alice, bob
+2026-04-08 09:24:05,111 - INFO - [alice] Archiving from /home/alice to /archive/alice
+2026-04-08 09:24:05,112 - INFO - [bob] Archiving from /home/bob to /archive/bob
+2026-04-08 09:24:05,112 - INFO - Completed group 'developers' | moved=0 | skipped=0 | errors=0

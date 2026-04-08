@@ -1,0 +1,7 @@
+2026-04-08 09:42:13,466 - INFO - Using archive directory: /archive
+2026-04-08 09:42:13,474 - INFO - Connected to PostgreSQL at postgres:5432
+2026-04-08 09:42:13,475 - INFO - Archiving files for group 'developers' with members: alice, bob
+2026-04-08 09:42:13,475 - INFO - Resolved group 'developers' members: alice, bob
+2026-04-08 09:42:13,475 - INFO - [alice] Archiving from /home/alice to /archive/alice
+2026-04-08 09:42:13,476 - INFO - [bob] Archiving from /home/bob to /archive/bob
+2026-04-08 09:42:13,476 - INFO - Completed group 'developers' | moved=0 | skipped=0 | errors=0

@@ -1,0 +1,13 @@
+2026-04-08 10:06:41,862 - INFO - Using archive directory: /archive
+2026-04-08 10:06:41,870 - INFO - Connected to PostgreSQL at postgres:5432
+2026-04-08 10:06:41,871 - INFO - Archiving files for group 'developers' with members: alice, bob
+2026-04-08 10:06:41,871 - INFO - Resolved group 'developers' members: alice, bob
+2026-04-08 10:06:41,871 - INFO - [alice] Archiving from /home/alice to /archive/alice
+2026-04-08 10:06:41,871 - INFO - [alice] Archived: /home/alice/.bashrc -> /archive/alice/.bashrc
+2026-04-08 10:06:41,877 - INFO - [alice] Archived: /home/alice/.profile -> /archive/alice/.profile
+2026-04-08 10:06:41,878 - INFO - [alice] Archived: /home/alice/.bash_logout -> /archive/alice/.bash_logout
+2026-04-08 10:06:41,880 - INFO - [bob] Archiving from /home/bob to /archive/bob
+2026-04-08 10:06:41,880 - INFO - [bob] Archived: /home/bob/.bashrc -> /archive/bob/.bashrc
+2026-04-08 10:06:41,881 - INFO - [bob] Archived: /home/bob/.profile -> /archive/bob/.profile
+2026-04-08 10:06:41,882 - INFO - [bob] Archived: /home/bob/.bash_logout -> /archive/bob/.bash_logout
+2026-04-08 10:06:41,883 - INFO - Completed group 'developers' | moved=6 | skipped=0 | errors=0

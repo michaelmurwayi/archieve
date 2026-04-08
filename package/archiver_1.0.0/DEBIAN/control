@@ -1,0 +1,11 @@
+Package: archiver
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Michael Murwayi <michael@example.com>
+Depends: python3, python3-psycopg2
+Description: Archive files for all users in a Unix group
+ A command-line tool that archives files for users in a given Unix group,
+ preserving directory structure and logging archive operations to PostgreSQL
+ when available.
